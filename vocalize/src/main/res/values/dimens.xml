@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--font sizes-->
+
+    <dimen name="font_size_large">20sp</dimen>
+    <dimen name="font_size_medium">16sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_extra_large">26sp</dimen>
+    <dimen name="font_size_button">18sp</dimen>
+    <dimen name="font_size_terms_description">14sp</dimen>
+    <dimen name="font_size_app_name_header">48sp</dimen>
+    <dimen name="font_size_web_view_header">21sp</dimen>
+    <dimen name="font_size_error_header">24sp</dimen>
+
+    <!--button sizes-->
+    <dimen name="btn_with_terms">155dp</dimen>
+
+    <!-- ripple -->
+    <dimen name="ripple_radius">60dp</dimen>
+
+</resources>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Vocalize</string>
+
+    <string name="activity_running">Running</string>
+    <string name="activity_cycling">Cycling</string>
+    <string name="activity_walking">Walking</string>
+    <string name="activity_dancing">Dancing</string>
+    <string name="activity_unknown">Unknown</string>
+
+    <string name="feature_history">History</string>
+
+    <!--terms and conditions screen-->
+    <string name="txt_updated_terms">We\'ve updated our</string>
+    <string name="txt_terms">Terms &amp; Conditions</string>
+    <string name="txt_last_update">Last updated on</string>
+    <string name="btn_name_accept">Accept</string>
+    <string name="btn_name_decline">Decline</string>
+
+    <!--error screen-->
+    <string name="txt_press_to_retry">Press to start over</string>
+    <string name="txt_try_again">Please try again</string>
+    <string name="txt_go_back">Go back and try again</string>
+
+
+    <!--common error codes-->
+    <string name="error_connection_timeout">Connection Timeout</string>
+    <string name="error_sorry">SORRY</string>
+    <string name="error_no_site_found">A wormhole could not be found. Please try again.</string>
+    <string name="error_a_wormhole">A wormhole</string>
+    <string name="error_not_found_wormhole">Did not find a wormhole for</string>
+    <string name="error_no_wormhole">could not be found. Please Try again.</string>
+    <string name="error_no_connection">No Internet Connectivity</string>
+    <string name="error_record_timeout">You can\'t record more than 10 seconds</string>
+    <string name="error_already_search">A search is already being processed. Please wait</string>
+    <string name="error_common">Something Went Wrong!</string>
+    <string name="error_server_connection">Unable to Connect to Server</string>
+    <string name="error_permission_denied">Some permissions are denied. Vocalize won\'t function properly.</string>
+
+    <!--messages-->
+    <string name="msg_update_latest_version">Install the latest version to proceed</string>
+    <string name="msg_update_available">Update Available</string>
+    <string name="msg_location_settings_disabled">Locations services are disabled. would you like to enable it ?</string>
+    <string name="msg_location_permission_disabled">Location permission is denied. Please select a state or visit settings to enable location</string>
+    <string name="msg_tnc_decline_confirmation">To proceed you should accept Terms and Conditions.
+        Are you sure you want to decline?</string>
+    <string name="msg_failed_location">Failed to acquire location. Please select a state</string>
+</resources>

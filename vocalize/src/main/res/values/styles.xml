@@ -1,0 +1,163 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.WhiteStatusBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- blue color button theme for  the t&c screen -->
+
+    <style name="BlueColorTextView">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="WhiteColorTextView">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="GreyColorTextView">
+        <item name="android:textColor">@color/colorDarkGrey</item>
+    </style>
+
+    <style name="ButtonTheme">
+        <item name="android:textSize">@dimen/font_size_button</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ButtonThemeFlat" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:foreground">?selectableItemBackgroundBorderless</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="ButtonTheme.white">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="ButtonTheme.blue">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RedColortextView">
+        <item name="android:textColor">@color/colorRed</item>
+    </style>
+
+    <!--  t&c screen header textview -->
+    <style name="BlueColorTextView.termsHeader">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!--  t&c screen header textview -->
+    <style name="termsDescription">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/font_size_small</item>
+    </style>
+
+    <style name="termsMedium">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+    </style>
+
+    <style name="termsContent">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/font_size_terms_description</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="BlueColorTextView.appName">
+        <item name="android:textSize">@dimen/font_size_app_name_header</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="BlackColorTextView.WebViewHeader">
+        <item name="android:textSize">@dimen/font_size_web_view_header</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="WhiteColorTextView.appName">
+        <item name="android:textSize">@dimen/font_size_app_name_header</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="BlackColorTextView.light">
+        <item name="android:textSize">@dimen/font_size_button</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="BlackColorTextView">
+        <item name="android:textSize">@dimen/font_size_button</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="NonItalicLight">
+        <item name="android:textSize">@dimen/font_size_button</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="WhiteColorTextView.light">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="WhiteColorTextView.boldSmall">
+        <item name="android:textSize">@dimen/font_size_small</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WhiteColorTextView.Medium">
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="RedColortextView.Large">
+        <item name="android:textSize">@dimen/font_size_error_header</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="RedColortextView.error">
+        <item name="android:textSize">@dimen/font_size_button</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="RedColortextView.medium">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="GreyColorTextView.medium">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="DialogWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+</resources>
